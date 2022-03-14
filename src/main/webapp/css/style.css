@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 11px;
+	border: 1px solid #999;
+}
+
+div {
+    display: block;
+}
+
+#wrap {
+	position: relative;
+    width: 100%;
+    min-width: 1348px !important;
+    background: #fff;
+    letter-spacing: -0.5px;
+}
+
+#header {
+	position: relative;
+    width: 100%;
+    min-width: 1080px;
+    z-index: 110;
+    border-bottom: 1px solid #f5232a;
+}
+
+.utilArea .utilMenu {
+    float: right;
+    font-size: 0;
+    margin-right: -12px;
+}
+
+.utilArea .utilMenu > li > a, .utilArea .utilMenu > li > span {
+    display: block;
+    line-height: 30px;
+    color: #585858;
+    padding: 0 9px;
+    height: 30px;
+    box-sizing: border-box;
+}
